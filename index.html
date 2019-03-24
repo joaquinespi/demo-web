@@ -9,10 +9,28 @@
       img{
         max-width: 100%;
         vertical-aling: top;
+        /*display: none;*/
+      }
+      img#responsive{
+        display: none;
+      }
+
+      @media screen and (max-width: 768px){
+
+        img{
+          display: none;
+        }
+
+        img#responsive{
+          display: block;
+        }
+
+
       }
     </style>
   </head>
   <body>
+    <img src="invie-responsive.webp" alt="" id="responsive">
     <img src="header.jpg" alt="">
     <img src="hero.jpg" alt="">
     <img src="acustica_1.jpg" alt="">
